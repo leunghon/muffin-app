@@ -1,8 +1,8 @@
 import { Box } from '@mui/material';
-import Sidebar from '../../components/Sidebar';
-import Chat from '../../components/Chat';
+import Sidebar from '../src/components/sidebar';
+import Chat from '../src/components/chat';
 
-function Home() {
+const Home: React.FC = () => {
   return (
     <Box display="flex">
       <Box width="30%">
@@ -13,7 +13,7 @@ function Home() {
       </Box>
     </Box>
   );
-}
+};
 
 export default Home;
 
